@@ -18,3 +18,8 @@ win 10可從微軟商店下載： https://www.microsoft.com/zh-tw/p/esheep-64bit
   (4)掉落：被抓起來放掉後，或者站立的視窗消失時會往下掉。走一走也有可能會自己坐下去。
 
   (5)???：在發出一陣白光之後，型態會有微妙的轉變？
+
+# 備註
+今天(8/9)下午使用win10版本開啟時將Credo.xml放在桌面上，另外將Credo.xml的檔名改為install.pet放在Appdata資料夾裡面。不知道是哪一個奏效了，總之現在不需要犧牲召喚，開起來直接就是Credo。
+
+It just works. (發出困惑的克克叫聲)
