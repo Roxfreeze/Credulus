@@ -148,7 +148,7 @@
         <y>0</y>
         <offsety>0</offsety>
         <opacity>1</opacity>
-        <interval>100</interval>
+        <interval>40</interval>
       </start>
       <end>
         <x>0</x>
@@ -187,7 +187,7 @@
         <y>0</y>
         <offsety>0</offsety>
         <opacity>1</opacity>
-        <interval>500</interval>
+        <interval>1000</interval>
       </end>
       <sequence repeatfrom="0" repeat="0">
         <frame>40</frame>
@@ -195,9 +195,7 @@
         <frame>42</frame>
         <frame>43</frame>
         <frame>44</frame>
-        <next probability="30" only="none">7</next>
-        <next probability="60" only="none">1</next>
-        <next probability="10" only="none">5</next>
+        <next probability="100" only="none">11</next>
         <action>none</action>
       </sequence>
     </animation>
@@ -294,6 +292,32 @@
         <frame>33</frame>
         <frame>32</frame>
         <frame>31</frame>
+        <action>none</action>
+      </sequence>
+    </animation>
+    <animation id="11">
+      <name>apronstand</name>
+      <start>
+        <x>0</x>
+        <y>0</y>
+        <offsety>0</offsety>
+        <opacity>1</opacity>
+        <interval>250</interval>
+      </start>
+      <end>
+        <x>0</x>
+        <y>0</y>
+        <offsety>0</offsety>
+        <opacity>1</opacity>
+        <interval>250</interval>
+      </end>
+      <sequence repeatfrom="0" repeat="1">
+        <frame>44</frame>
+        <next probability="30" only="none">1</next>
+        <next probability="20" only="none">7</next>
+        <next probability="20" only="none">5</next>
+        <next probability="15" only="none">2</next>
+        <next probability="15" only="none">3</next>
         <action>none</action>
       </sequence>
     </animation>
